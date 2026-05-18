@@ -216,3 +216,62 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+```gitignore
+# ─────────────────────────────────
+# Jupyter Notebook specific
+# ─────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ─────────────────────────────────
+# Google Colab specific
+# ─────────────────────────────────
+*.colab
+.config/
+
+# ─────────────────────────────────
+# JAX / ML specific
+# ─────────────────────────────────
+*.pkl
+*.h5
+*.hdf5
+*.npy
+*.npz
+saved_models/
+checkpoints/
+logs/
+
+# ─────────────────────────────────
+# Data files (usually too large)
+# ─────────────────────────────────
+data/raw/
+*.csv
+*.zip
+*.tar.gz
+
+# ─────────────────────────────────
+# System files
+# ─────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────
+# Virtual environments
+# ─────────────────────────────────
+venv/
+env/
+.env/
+*.egg-info/
+
+# ─────────────────────────────────
+# IDE files
+# ─────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
