@@ -1,5 +1,5 @@
 # Introduction to JAX
-### Embedded Machine Learning — MSc Assignment
+### Embedded Machine Learning 
 **Based on:** [learn-jax by agwr](https://github.com/agwr/learn-jax)
 
 ---
