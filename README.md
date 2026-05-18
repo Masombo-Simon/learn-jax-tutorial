@@ -32,3 +32,34 @@ working with embedded machine learning systems.
 ---
 
 ## 🗂️ Repository Structure
+Go to your repository main page.
+It should look like this:
+
+learn-jax-tutorial/
+│
+├── 📄 README.md
+├── 📄 .gitignore
+├── 📄 requirements.txt
+│
+├── 📁 notebooks/
+|   ├── 📓 0. Introduction to JAX
+│   ├── 📓 1. jit_compilation.ipynb
+│   ├── 📓 2. automatic_vectorization.ipynb
+│   ├── 📓 3. automatic_differentiation.ipynb
+│   ├── 📓 4. pytrees.ipynb
+│   ├── 📓 5. distributed computing.ipynb
+│   ├── 📓 6. stateful computation.ipynb
+│   ├── 📓 7. istributed Computing.ipynb
+│   └── 📓 08_embedded_ml.ipynb
+│
+├── 📁 src/
+│   ├── 📓 01. Linear Regression.ipynb
+│   ├── 📓 02. Neural Network Classifier.ipynb
+|   ├── 📓 03. Gradient Descent Visualization.ipynb
+|   ├── 📓 EMBEDDED ML 1_ Lightweight Model for Edge Devices.ipynb
+|   ├── 📓 EMBEDDED ML 2_ Model Quantization.ipynb
+|   ├── 📓 EMBEDDED ML 3_ Efficient Batch Inference.ipynb
+│   └── 📓 Practical Examples_Combined.ipynb
+│
+└── 📁 docs/
+    └── 📄 Introduction to JAX_Tutorial.pdf
